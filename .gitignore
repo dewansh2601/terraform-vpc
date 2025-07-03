@@ -21,7 +21,6 @@ override.tf.json
 terraform.rc
 
 # Sensitive variable files
-*.tfvars
 *.tfvars.json
 
 # Plan output
