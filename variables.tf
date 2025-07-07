@@ -5,7 +5,7 @@ variable "public_key" {}
 variable "volume_size" {}
 variable "availability_zone" {
   description = "Availability zone for resources"
-  default     = "us-east-1a"
+  default     = "us-east-1"
 }
 variable "ssh_allowed_cidr" {
   description = "CIDR for SSH access"
